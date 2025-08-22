@@ -1,0 +1,83 @@
+header {
+    padding: 1.75rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2c2c2c;
+}
+
+a {
+    text-decoration: none;
+    color: greenyellow;
+    font-size: 1.62rem;
+    margin-left: 1.25rem;
+    transition: text-shadow .2s ease;
+}
+
+a:hover {
+    text-shadow:
+        0 0 0.37rem greenyellow,
+        0 0 0.87rem greenyellow,
+        0 0 1.5rem greenyellow;
+}
+
+h1 {
+    color: white;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+#sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 4.37rem;
+
+}
+
+p {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 1.25rem;
+    max-width: 56.25rem;
+    line-height: 1.2;
+}
+
+#douglas-foto {
+    max-width: 18.75rem;
+    height: auto;
+    border-radius: 62.5rem;
+    filter: grayscale(100%);
+    margin-left: 0.93rem;
+}
+
+#douglas-foto:hover {
+    transform: scale(1.03);
+    filter: brightness(1.1) saturate(1.1);
+    filter: grayscale(0%);
+}
+
+@media (max-width: 768px) {
+    #sobre {
+        flex-direction: column;
+    }
+
+    .h1ep {
+        margin-top: 2.5rem;
+    }
+}
+
+#skills {
+    background: linear-gradient(to left, #000, #999);
+    padding: 1.87rem;
+
+}
+
+
+
+canvas {
+    width: 80%;
+    margin: 0 auto;
+   
+}
+
