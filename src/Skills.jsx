@@ -52,7 +52,17 @@ function Skills() {
                     y: {
                         beginAtZero: true,
                         ticks: {
-                            color: 'white',
+                            color: (ctx) => {
+                                const colors = ["rgb(97, 218, 251)",
+                                    "rgb(117, 173, 99)",
+                                    "rgb(247, 224, 24)",
+                                    "rgb(33, 76, 229)",
+                                    "rgb(229, 76, 33)",
+                                    "rgb(0, 237, 100)",
+                                    "rgb(1, 91, 133)"
+                                ];
+                                return colors[ctx.index]; // alterna as cores
+                            },
                             font: {
                                 size: 20,
                             }
@@ -66,12 +76,9 @@ function Skills() {
     return (
         <section id="skills">
             <h1>Skills</h1>
-            <div>
-                <canvas ref={grafico}></canvas>
-            </div>
+            <canvas ref={grafico}></canvas>
         </section>
     );
 }
 
 export default Skills;
-
