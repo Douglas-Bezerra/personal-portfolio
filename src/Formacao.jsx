@@ -4,7 +4,6 @@ import InstagramLogo from './assets/instagram.png'
 import DsmLogo from './assets/dsm.jpg'
 
 
-
 function Formacao() {
 
     return (

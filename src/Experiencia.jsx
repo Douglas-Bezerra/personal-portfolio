@@ -1,5 +1,4 @@
 import './App.css'
-
 import Tauste from './assets/tauste.png'
 import Tupperware from './assets/tupperware.png'
 
