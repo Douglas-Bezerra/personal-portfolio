@@ -1,4 +1,4 @@
-import Douglas from './assets/douglas.jpg'
+import DouglasFoto from './assets/douglas.jpg'
 import './App.css'
 
 
@@ -23,7 +23,7 @@ function Sobre() {
         <>
             <section id='sobre'>
 
-                <img id='douglas-foto' src={Douglas} alt="Foto do Douglas Bezerra" />
+                <img id='douglas-foto' src={DouglasFoto} alt="Foto do Douglas Bezerra" />
 
                 <div className='h1ep'>
                     <h1>Sobre mim:</h1>

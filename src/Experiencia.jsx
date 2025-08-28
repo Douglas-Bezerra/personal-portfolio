@@ -10,6 +10,7 @@ function Experiencia() {
     return (
         <>
             <section id='experiencia'>
+                <h1>Experiência Profissional:</h1>
                 <div className='card-deck'>
                     <div className='card'>
                         <img className='card-img-top' src={Tauste} alt='logo do supermercados tauste' />
@@ -38,7 +39,6 @@ function Experiencia() {
                                 <span className="digitacao">03/2025 - 07/2025</span>
                             </small>
                         </div>
-
                     </div>
                 </div>
             </section>

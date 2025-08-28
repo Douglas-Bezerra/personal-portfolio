@@ -75,7 +75,7 @@ function Skills() {
 
     return (
         <section id="skills">
-            <h1>Skills</h1>
+            <h1>Skills:</h1>
             <canvas ref={grafico}></canvas>
         </section>
     );

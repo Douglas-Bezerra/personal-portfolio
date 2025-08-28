@@ -70,7 +70,11 @@ p {
 #skills {
     background: linear-gradient(to left, #000, #999, #000);
     padding: 1.87rem;
+}
 
+#experiencia {
+    background: linear-gradient(to right, #23487A, #000, #ec008c);
+    padding: 1.87rem;
 }
 
 canvas {
@@ -81,10 +85,8 @@ canvas {
 .card-deck {
     display: flex;
     gap: 30px;
-    margin-top: 80px;
+    padding: 80px;
     justify-content: center;
-    margin: 60px;
-
 }
 
 .card-img-top {
@@ -93,9 +95,8 @@ canvas {
 }
 
 .card-footer {
-    margin-top: 15px;
+    margin-top: 10px;
     color: #adff2f;
-
 }
 
 #tauste {
@@ -106,9 +107,7 @@ canvas {
 #tupperware {
     margin-top: 10px;
     color: #ec008c;
-
 }
-
 
 .digitacao {
     display: inline-block;
@@ -117,7 +116,6 @@ canvas {
     border-right: 0.15em solid white;
     animation: typing 2s steps(13, end), blink 0.5s step-end infinite alternate;
 }
-
 
 @keyframes typing {
     from {
@@ -135,10 +133,77 @@ canvas {
     }
 }
 
-
 .card-footer:hover {
     text-shadow:
         0 0 0.37rem greenyellow,
         0 0 0.87rem greenyellow,
         0 0 1.5rem greenyellow;
+}
+
+#formacao {
+    padding: 1.87rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-formacao {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-formacao img {
+    width: 300px;
+}
+
+.card-formacao-title {
+    font-size: 25px;
+    color: #b11318;
+}
+
+li {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.card-formacao-body {
+    margin-top: 30px;
+
+}
+
+.card-formacao-body img {
+    width: 50px;
+    border-radius: 5px;
+}
+
+.card-formacao-img-top {
+    animation: girarImagem 60s linear infinite, brilhoPulsante 5s ease-in-out infinite alternate;
+    border-radius: 100%;
+}
+
+@keyframes girarImagem {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes brilhoPulsante {
+    0% {
+        box-shadow: 0 0 10px 3px rgba(177, 19, 24);
+    }
+
+    50% {
+        box-shadow: 0 0 50px 8px rgb(255, 0, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 10px 3px rgba(177, 19, 24);
+    }
 }
