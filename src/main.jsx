@@ -5,11 +5,13 @@ import './index.css'
 import Header from './Header.jsx'
 import Sobre from './Sobre.jsx'
 import Skills from './Skills.jsx'
+import Experiencia from './Experiencia.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header />
     <Sobre />
     <Skills />
+    <Experiencia />
   </StrictMode>,
 )

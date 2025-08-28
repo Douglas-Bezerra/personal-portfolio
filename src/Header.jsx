@@ -8,8 +8,8 @@ function Header() {
         <a href="">{"< Douglas Bezerra />"}</a>
         <a href="#sobre">Sobre</a>
         <a href="#skills">Skills</a>
-        <a href="">Experiência</a>
-        <a href=""></a>
+        <a href="#experiencia">Experiência</a>
+        <a href="">Formação</a>
       </header>
     </>
   )
