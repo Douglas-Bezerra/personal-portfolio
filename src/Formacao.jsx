@@ -1,6 +1,5 @@
 import './App.css'
 import FatecLogo from './assets/fatec.png'
-import InstagramLogo from './assets/instagram.png'
 import DsmLogo from './assets/dsm.jpg'
 
 

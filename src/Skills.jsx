@@ -35,6 +35,9 @@ function Skills() {
                 ],
             },
             options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                
                 plugins: {
                     legend: {
                         display: false, // Esta linha oculta a legenda "Skills Level"

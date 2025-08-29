@@ -30,7 +30,6 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 2rem;
     padding: 4.37rem;
 }
 
@@ -66,6 +65,37 @@ p {
     }
 }
 
+@media (max-width: 450px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    #skills {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    canvas {
+        width: 100% !important;
+        height: 700px !important;
+    }
+
+    #experiencia {
+        max-width: 100vh;
+    }
+
+    .card-deck {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 #skills {
     background: linear-gradient(to left, #000, #999, #000);
     padding: 1.87rem;
@@ -77,8 +107,8 @@ p {
 }
 
 canvas {
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
+    height: 700px !important;
 }
 
 .card-deck {
