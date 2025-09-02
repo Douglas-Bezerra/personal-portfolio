@@ -2,7 +2,7 @@ header {
     padding: 1.75rem;
     display: flex;
     justify-content: space-between;
-    background: linear-gradient(to bottom, #2c2c2c, #fff);
+    background: linear-gradient(to bottom, #2c2c2c, #000);
 }
 
 a {
@@ -55,7 +55,39 @@ p {
     filter: grayscale(0%);
 }
 
-@media (max-width: 768px) {
+
+
+
+
+
+
+
+
+
+
+#github-logo {
+    width: 40px;
+}
+
+#github-logo:hover {
+    
+}
+
+#instagram-logo {
+    width: 40px;
+}
+
+#instagram-logo:hover {
+   
+}
+
+
+
+
+
+
+
+@media (max-width: 769px) {
     #sobre {
         flex-direction: column;
     }
@@ -70,23 +102,8 @@ p {
     header {
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 1.25rem;
         align-items: center;
-    }
-
-    #skills {
-        max-width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    canvas {
-        width: 100% !important;
-        height: 700px !important;
-    }
-
-    #experiencia {
-        max-width: 100vh;
     }
 
     .card-deck {
@@ -108,33 +125,33 @@ p {
 
 canvas {
     width: 100%;
-    height: 700px !important;
+    height: 43.75rem !important;
 }
 
 .card-deck {
     display: flex;
-    gap: 30px;
-    padding: 80px;
+    gap: 1.87rem;
+    padding: 5rem;
     justify-content: center;
 }
 
 .card-img-top {
-    width: 300px;
-    height: 300px;
+    width: 18.75rem;
+    height: 18.75rem;
 }
 
 .card-footer {
-    margin-top: 10px;
+    margin-top: 0.62rem;
     color: #adff2f;
 }
 
 #tauste {
     color: #F48120;
-    margin-top: 10px;
+    margin-top: 0.62rem;
 }
 
 #tupperware {
-    margin-top: 10px;
+    margin-top: 0.62rem;
     color: #ec008c;
 }
 
@@ -152,7 +169,7 @@ canvas {
     }
 
     to {
-        width: 14ch;
+        width: 15ch;
     }
 }
 
@@ -177,35 +194,35 @@ canvas {
 }
 
 .card-formacao {
-    margin-top: 40px;
+    margin-top: 2.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .card-formacao img {
-    width: 300px;
+    width: 18.75rem;
 }
 
 .card-formacao-title {
-    font-size: 25px;
+    font-size: 1.56rem;
     color: #b11318;
 }
 
 li {
-    margin-top: 15px;
-    font-size: 20px;
+    margin-top: 0.93rem;
+    font-size: 1.25rem;
     color: #fff;
 }
 
 .card-formacao-body {
-    margin-top: 30px;
+    margin-top: 1.87rem;
 
 }
 
 .card-formacao-body img {
-    width: 50px;
-    border-radius: 5px;
+    width: 3.12rem;
+    border-radius: 0.31rem;
 }
 
 .card-formacao-img-top {
@@ -225,15 +242,15 @@ li {
 
 @keyframes brilhoPulsante {
     0% {
-        box-shadow: 0 0 10px 3px rgba(177, 19, 24);
+        box-shadow: 0 0 0.62rem 0.18rem rgba(177, 19, 24);
     }
 
     50% {
-        box-shadow: 0 0 50px 8px rgb(255, 0, 0);
+        box-shadow: 0 0 3.12rem 0.5rem rgb(255, 0, 0);
     }
 
     100% {
-        box-shadow: 0 0 10px 3px rgba(177, 19, 24);
+        box-shadow: 0 0 0.62rem 0.18rem rgba(177, 19, 24);
     }
 }
 
@@ -244,7 +261,7 @@ footer {
 
 h6 {
     color: greenyellow;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: center;
     animation: piscar 1s infinite;
 }

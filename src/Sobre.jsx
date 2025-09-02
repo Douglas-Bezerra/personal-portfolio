@@ -1,5 +1,8 @@
-import DouglasFoto from './assets/douglas.jpg'
 import './App.css'
+import DouglasFoto from './assets/douglas.jpg'
+import GitHubLogo from './assets/github.svg'
+import InstagramLogo from './assets/instagram.svg'
+
 
 
 
@@ -24,6 +27,16 @@ function Sobre() {
             <section id='sobre'>
 
                 <img id='douglas-foto' src={DouglasFoto} alt="Foto do Douglas Bezerra" />
+
+                <div className='social-links'>
+                    <a href="https://github.com/Douglas-Bezerra" target="_blank" rel="noopener noreferrer">
+                        <img id='github-logo' src={GitHubLogo} alt="Logo do instagram" />
+                    </a>
+
+                    <a href="https://www.instagram.com/ddouglas.9" target="_blank" rel="noopener noreferrer">
+                        <img id='instagram-logo' src={InstagramLogo} alt="Logo do instagram" />
+                    </a>
+                </div>
 
                 <div className='h1ep'>
                     <h1>Sobre mim:</h1>
