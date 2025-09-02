@@ -2,7 +2,7 @@ header {
     padding: 1.75rem;
     display: flex;
     justify-content: space-between;
-    background: linear-gradient(to bottom, #2c2c2c, #000);
+    background: linear-gradient(to bottom, #515151, #000);
 }
 
 a {
@@ -55,22 +55,23 @@ p {
     filter: grayscale(0%);
 }
 
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-
-
-
-
-
-
-
-
+.social-links {
+    margin-top: 15px;
+}
 
 #github-logo {
     width: 40px;
 }
 
 #github-logo:hover {
-    
+    box-shadow: 0 0 0.62rem 0.18rem #fff;
+    border-radius: 100%;
 }
 
 #instagram-logo {
@@ -78,14 +79,9 @@ p {
 }
 
 #instagram-logo:hover {
-   
+    box-shadow: 0 0 0.62rem 0.18rem #fff;
+    border-radius: 12px;
 }
-
-
-
-
-
-
 
 @media (max-width: 769px) {
     #sobre {
@@ -111,6 +107,13 @@ p {
         flex-direction: column;
         align-items: center;
     }
+}
+
+@media (min-width: 1024px) {
+    .h1ep {
+        margin-left: 80px;
+    }
+
 }
 
 #skills {
@@ -256,7 +259,7 @@ li {
 
 footer {
     padding: 1.75rem;
-    background: linear-gradient(to bottom, #000, #2c2c2c);
+    background: linear-gradient(to bottom, #000, #515151);
 }
 
 h6 {

@@ -26,16 +26,20 @@ function Sobre() {
         <>
             <section id='sobre'>
 
-                <img id='douglas-foto' src={DouglasFoto} alt="Foto do Douglas Bezerra" />
+                <div className='social'>
 
-                <div className='social-links'>
-                    <a href="https://github.com/Douglas-Bezerra" target="_blank" rel="noopener noreferrer">
-                        <img id='github-logo' src={GitHubLogo} alt="Logo do instagram" />
-                    </a>
+                    <img id='douglas-foto' src={DouglasFoto} alt="Foto do Douglas Bezerra" />
 
-                    <a href="https://www.instagram.com/ddouglas.9" target="_blank" rel="noopener noreferrer">
-                        <img id='instagram-logo' src={InstagramLogo} alt="Logo do instagram" />
-                    </a>
+                    <div className='social-links'>
+                        <a href="https://github.com/Douglas-Bezerra" target="_blank" rel="noopener noreferrer">
+                            <img id='github-logo' src={GitHubLogo} alt="Logo do instagram" />
+                        </a>
+
+                        <a href="https://www.instagram.com/ddouglas.9" target="_blank" rel="noopener noreferrer">
+                            <img id='instagram-logo' src={InstagramLogo} alt="Logo do instagram" />
+                        </a>
+                    </div>
+                    
                 </div>
 
                 <div className='h1ep'>
