@@ -299,3 +299,53 @@ h6 {
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+label {
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: #adff2f 1px solid;
+    border-radius: 20px;
+    margin: 40px 0px;
+    font-size: 20px;
+    padding: 20px;
+    max-width: 600px;
+}
+
+input {
+    font-size: 20px;
+    border-radius: 8px;
+    background: transparent;
+    color: #fff;
+    padding: 5px;
+    max-width: 300px;
+}
+
+textarea {
+    background: transparent;
+    color: #fff;
+    font-size: 25px;
+}
+
+button {
+    font-size: 20px;
+    background: transparent;
+    color: #fff;
+    border-radius: 8px;
+}
