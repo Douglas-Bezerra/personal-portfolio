@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
-import Chart from "chart.js/auto";
 import "./App.css";
+import Chart from "chart.js/auto";
 
 function Skills() {
     const grafico = useRef(null); // referência para o canvas

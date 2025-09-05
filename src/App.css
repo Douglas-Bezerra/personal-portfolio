@@ -1,23 +1,26 @@
 header {
-    padding: 1.75rem;
-    display: flex;
-    justify-content: space-between;
     background: linear-gradient(to bottom, #515151, #000);
 }
 
-a {
-    text-decoration: none;
+.a-header {
     color: greenyellow;
-    font-size: 1.62rem;
-    margin-left: 1.25rem;
+    margin: 0rem 1.25rem;
+    text-decoration: none;
     transition: text-shadow .2s ease;
+    font-size: 1.62rem;
 }
 
-a:hover {
+.a-header:hover {
     text-shadow:
         0 0 0.37rem greenyellow,
         0 0 0.87rem greenyellow,
         0 0 1.5rem greenyellow;
+}
+
+nav {
+    padding: 1.75rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 h1 {
@@ -65,6 +68,10 @@ p {
     margin-top: 15px;
 }
 
+.social-links a {
+    margin: 10px;
+}
+
 #github-logo {
     width: 40px;
 }
@@ -84,6 +91,11 @@ p {
 }
 
 @media (max-width: 769px) {
+
+    .a-header {
+        margin: 0px;
+    }
+
     #sobre {
         flex-direction: column;
     }
@@ -95,7 +107,7 @@ p {
 
 @media (max-width: 450px) {
 
-    header {
+    nav {
         display: flex;
         flex-direction: column;
         gap: 1.25rem;
@@ -107,6 +119,11 @@ p {
         flex-direction: column;
         align-items: center;
     }
+
+    .card-formacao-img-top {
+        max-width: 13.2rem;
+    }
+
 }
 
 @media (min-width: 1024px) {
@@ -162,7 +179,7 @@ canvas {
     display: inline-block;
     overflow: hidden;
     white-space: nowrap;
-    border-right: 0.15em solid white;
+    border-right: 0.15rem solid white;
     animation: typing 2s steps(13, end), blink 0.5s step-end infinite alternate;
 }
 
@@ -172,7 +189,7 @@ canvas {
     }
 
     to {
-        width: 15ch;
+        width: 14ch;
     }
 }
 
@@ -191,9 +208,6 @@ canvas {
 
 #formacao {
     padding: 1.87rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .card-formacao {

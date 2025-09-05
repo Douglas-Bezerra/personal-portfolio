@@ -7,7 +7,9 @@ import Sobre from './Sobre.jsx'
 import Skills from './Skills.jsx'
 import Experiencia from './Experiencia.jsx'
 import Formacao from './Formacao.jsx'
+import Formulario from './Formulario.jsx'
 import Footer from './Footer.jsx'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -16,6 +18,7 @@ createRoot(document.getElementById('root')).render(
     <Skills/>
     <Experiencia/>
     <Formacao/>
+    <Formulario/>
     <Footer/>
   </StrictMode>,
 )

@@ -5,11 +5,13 @@ function Header() {
   return (
     <>
       <header>
-        <a href="">{"< Douglas Bezerra />"}</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#skills">Skills</a>
-        <a href="#experiencia">Experiência</a>
-        <a href="#formacao">Formação</a>
+        <nav>
+          <a className='a-header' href="">{"< Douglas Bezerra />"}</a>
+          <a className='a-header' href="#sobre">Sobre</a>
+          <a className='a-header' href="#skills">Skills</a>
+          <a className='a-header' href="#experiencia">Experiência</a>
+          <a className='a-header' href="#formacao">Formação</a>
+        </nav>
       </header>
     </>
   )

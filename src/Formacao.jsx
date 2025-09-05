@@ -1,6 +1,6 @@
 import './App.css'
 import FatecLogo from './assets/fatec.png'
-import DsmLogo from './assets/dsm.jpg'
+import DsmLogo from './assets/dsm.png'
 
 
 function Formacao() {
