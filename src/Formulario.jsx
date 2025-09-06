@@ -1,32 +1,34 @@
 import './App.css'
-
-
+import ShaderBackground from './components/lightswind/shader-background.js';
 
 function Formulario() {
-
     return (
         <>
-
             <section id='formulario'>
-                <h1>Fale Comigo: </h1>
 
-                <form action="">
+                {/* Shader como background */}
+                <ShaderBackground className="shader-background" />
 
-                    <label htmlFor="">Nome: </label>
-                    <input type="text" id='nome' />
+                {/* Conteúdo do formulário */}
+                <div className="form-container">
+                    <h1>Fale Comigo: </h1>
 
-                    <label htmlFor="">Idade: </label>
-                    <input type="number" id='idade' />
+                    <form action="">
+                        <label htmlFor="">Nome: </label>
+                        <input type="text" id='nome' />
 
-                    <label htmlFor="">Telefone: </label>
-                    <input type="tel" id='telefone' />
+                        <label htmlFor="">Idade: </label>
+                        <input type="number" id='idade' />
 
-                    <label htmlFor="">Assunto: </label>
-                    <textarea id="assunto" name="mensagem" rows="5" cols="40"></textarea>
+                        <label htmlFor="">Telefone: </label>
+                        <input type="tel" id='telefone' />
 
-                    <button type="submit">Enviar</button>
+                        <label htmlFor="">Assunto: </label>
+                        <textarea id="assunto"></textarea>
 
-                </form>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
 
             </section>
         </>

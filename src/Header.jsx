@@ -11,6 +11,7 @@ function Header() {
           <a className='a-header' href="#skills">Skills</a>
           <a className='a-header' href="#experiencia">Experiência</a>
           <a className='a-header' href="#formacao">Formação</a>
+          <a className='a-header' href="#formulario">Contato</a>
         </nav>
       </header>
     </>

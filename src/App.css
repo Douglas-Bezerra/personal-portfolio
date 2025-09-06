@@ -107,6 +107,10 @@ p {
 
 @media (max-width: 450px) {
 
+    form {
+        width: 300px !important;
+    }
+
     nav {
         display: flex;
         flex-direction: column;
@@ -300,52 +304,66 @@ h6 {
     }
 }
 
+#formulario {
+    position: relative;
+    /* Referência para o shader */
+    overflow: hidden;
+}
 
+/* Shader fica atrás do conteúdo */
+.shader-background {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
 
+}
 
+/* Conteúdo acima do shader */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    padding: 3rem;
 
-
-
-
-
-
-
-
-
-label {
-    color: white;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    border: #adff2f 1px solid;
-    border-radius: 20px;
-    margin: 40px 0px;
-    font-size: 20px;
-    padding: 20px;
-    max-width: 600px;
+    gap: 20px;
+    width: 600px;
+    margin-top: 2.5rem;
 }
 
 input {
     font-size: 20px;
     border-radius: 8px;
+    padding: 10px;
     background: transparent;
+    border-color: #fff;
     color: #fff;
-    padding: 5px;
-    max-width: 300px;
+}
+
+label {
+    font-size: 20px;
+    color: #fff;
 }
 
 textarea {
     background: transparent;
     color: #fff;
-    font-size: 25px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    resize: none;
+    height: 100px;
 }
 
 button {
-    font-size: 20px;
     background: transparent;
     color: #fff;
+    font-size: 25px;
     border-radius: 8px;
+    padding: 5px;
 }
