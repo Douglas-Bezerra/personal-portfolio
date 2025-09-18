@@ -3,7 +3,6 @@ import Tauste from './assets/tauste.png'
 import Tupperware from './assets/tupperware.png'
 
 
-
 function Experiencia() {
 
     return (

@@ -4,8 +4,6 @@ import GitHubLogo from './assets/github.svg'
 import InstagramLogo from './assets/instagram.svg'
 
 
-
-
 //Componenete para setar a cor do texto mais fácil
 const Highlight = ({ color, children }) => (
     <span
@@ -17,7 +15,6 @@ const Highlight = ({ color, children }) => (
         {children}
     </span>
 );
-
 
 
 function Sobre() {
@@ -39,7 +36,7 @@ function Sobre() {
                             <img id='instagram-logo' src={InstagramLogo} alt="Logo do instagram" />
                         </a>
                     </div>
-                    
+
                 </div>
 
                 <div className='h1ep'>

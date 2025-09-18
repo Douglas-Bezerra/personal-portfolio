@@ -18,7 +18,7 @@ function Formulario() {
                         <input type="text" id='nome' />
 
                         <label htmlFor="">Idade: </label>
-                        <input type="number" id='idade' />
+                        <input type="number" id='idade' min={1} step={1} />
 
                         <label htmlFor="">Telefone: </label>
                         <input type="tel" id='telefone' />

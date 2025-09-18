@@ -65,15 +65,15 @@ p {
 }
 
 .social-links {
-    margin-top: 15px;
+    margin-top: 0.93rem;
 }
 
 .social-links a {
-    margin: 10px;
+    margin: 0.62rem;
 }
 
 #github-logo {
-    width: 40px;
+    width: 2.5rem;
 }
 
 #github-logo:hover {
@@ -82,12 +82,12 @@ p {
 }
 
 #instagram-logo {
-    width: 40px;
+    width: 2.5rem;
 }
 
 #instagram-logo:hover {
     box-shadow: 0 0 0.62rem 0.18rem #fff;
-    border-radius: 12px;
+    border-radius: 0.75rem;
 }
 
 @media (max-width: 769px) {
@@ -315,7 +315,6 @@ h6 {
     position: absolute;
     z-index: 0;
     width: 100%;
-
 }
 
 /* Conteúdo acima do shader */
@@ -325,45 +324,44 @@ h6 {
     position: relative;
     align-items: center;
     padding: 3rem;
-
 }
 
 form {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    width: 600px;
+    gap: 1.25rem;
+    width: 37.5rem;
     margin-top: 2.5rem;
 }
 
 input {
-    font-size: 20px;
-    border-radius: 8px;
-    padding: 10px;
+    font-size: 1.25rem;
+    border-radius: 0.5rem;
+    padding: 0.62rem;
     background: transparent;
     border-color: #fff;
     color: #fff;
 }
 
 label {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #fff;
 }
 
 textarea {
     background: transparent;
     color: #fff;
-    font-size: 20px;
-    padding: 5px;
-    border-radius: 8px;
+    font-size: 1.25rem;
+    padding: 0.31rem;
+    border-radius: 0.5rem;
     resize: none;
-    height: 100px;
+    height: 6.25rem;
 }
 
 button {
     background: transparent;
     color: #fff;
-    font-size: 25px;
-    border-radius: 8px;
-    padding: 5px;
+    font-size: 1.56rem;
+    border-radius: 0.5rem;
+    padding: 0.31rem;
 }
