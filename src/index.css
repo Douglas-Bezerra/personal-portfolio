@@ -6,3 +6,13 @@
   scroll-behavior: smooth;
   background-color: black;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* parte que se move */
+::-webkit-scrollbar-thumb {
+  background: greenyellow;
+  border-radius: 10px;
+}

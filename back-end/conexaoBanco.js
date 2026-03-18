@@ -31,9 +31,6 @@ async function run() {
     await client.db("admin").command({ ping: 1 });
     console.log("Conectado ao MongoDB 🟢");
 
-    const db = client.db(dbName); // pega o banco
-    const collection = db.collection(collectionName); //pega a coleção
-
   } finally {
     // Ensures that the client will close when you finish/error
     await client.close();

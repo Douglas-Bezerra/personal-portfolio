@@ -1,3 +1,5 @@
+/* HEADER CSS */
+
 header {
     background: linear-gradient(to bottom, #515151, #000);
 }
@@ -16,6 +18,8 @@ header {
         0 0 0.87rem greenyellow,
         0 0 1.5rem greenyellow;
 }
+
+/* SOBRE CSS */
 
 nav {
     padding: 1.75rem;
@@ -46,9 +50,7 @@ p {
 
 #douglas-foto {
     max-width: 18.75rem;
-    height: auto;
     border-radius: 62.5rem;
-    filter: grayscale(100%);
     margin-left: 0.93rem;
 }
 
@@ -90,10 +92,10 @@ p {
     border-radius: 0.75rem;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 1023px) {
 
     .a-header {
-        margin: 0px;
+        font-size: 1.25rem;
     }
 
     #sobre {
@@ -106,6 +108,10 @@ p {
 }
 
 @media (max-width: 450px) {
+
+    .a-header {
+        font-size: 1.45rem;
+    }
 
     form {
         width: 300px !important;
@@ -137,8 +143,10 @@ p {
 
 }
 
+/* SKILLS CSS */
+
 #skills {
-    background: linear-gradient(to left, #000, #999, #000);
+    background: linear-gradient(to left, #000, #555, #000);
     padding: 1.87rem;
 }
 
@@ -304,20 +312,11 @@ h6 {
     }
 }
 
-#formulario {
-    position: relative;
-    /* Referência para o shader */
-    overflow: hidden;
-}
-
-/* Shader fica atrás do conteúdo */
 .shader-background {
     position: absolute;
-    z-index: 0;
     width: 100%;
 }
 
-/* Conteúdo acima do shader */
 .form-container {
     display: flex;
     flex-direction: column;
@@ -338,7 +337,7 @@ input {
     font-size: 1.25rem;
     border-radius: 0.5rem;
     padding: 0.62rem;
-    background: transparent;
+    background: rgb(255, 255, 255, 0.3);
     border-color: #fff;
     color: #fff;
 }
@@ -349,7 +348,7 @@ label {
 }
 
 textarea {
-    background: transparent;
+    background: rgb(255, 255, 255, 0.3);
     color: #fff;
     font-size: 1.25rem;
     padding: 0.31rem;
@@ -359,7 +358,7 @@ textarea {
 }
 
 button {
-    background: transparent;
+    background: rgb(255, 255, 255, 0.3);
     color: #fff;
     font-size: 1.56rem;
     border-radius: 0.5rem;
